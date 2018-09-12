@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+    <h1>1에서 100까지 짝수의 합을 구해봅시다</h1>
+
+    <script>
+        var sum = 0;
+        for (var firstNumver = 1; firstNumver <= 100; firstNumver++) {
+            if (firstNumver % 2 === 0) {
+                sum += firstNumver;
+                console.log(firstNumver, sum);
+            }
+        }
+        document.write("1부터 짝수의합 :" + sum + "</br>");   
+    </script>
+
+    <h1>100에서 0 까지 출력하는 프로그램을 작성 해 봅시다</h1>
+    <script>
+        for (var number = 100; number >= 0; number--) {
+            document.write(number + "<br>")
+        }
+
+    </script>
+   
+
+
+</body>
+
+
+
+</html>
