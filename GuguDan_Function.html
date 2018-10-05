@@ -10,69 +10,21 @@
 
 <body>
     <script>
-        // function friend(name) {
-        //     console.log('hi' + name);
-        //     console.log('wellcome' + name);
-        //     console.log('bro' + name);
-        // }
 
-        // friend('sangwon')
 
-        function friend(name) {
-            for(var i = 2; i <= 2; i++) {
-            document.write(name * 1 +""+ '</br>' );
-            document.write(name * 2 +""+ '</br>' );
-            document.write(name * 3 +""+ '</br>' );
-            document.write(name * 4 +""+ '</br>' );
-            document.write(name * 5 +""+ '</br>' );
-            document.write(name * 6 +""+ '</br>' );
-            document.write(name * 7 +""+ '</br>' );
-            document.write(name * 8 +""+ '</br>' );
-            document.write(name * 9 +""+ '</br>' );
+        function gugudan(num) {
+            //  i 가 1부터 9랑 같거나 작을때까지 반복한다 
+            for (var i = 1; i <= 9; i++) {
+                document.write(num * i + "" + '</br>')
+            }
         }
-    }        
-        friend(2)
-        friend(3)
-        friend(4)
-        friend(5)
-        friend(6)
-        friend(7)
-        friend(8)
-        friend(9)
-
-
-
-        // // 함수 gugudan 은 2부터 9까지 반복하는 코드 
-        // function gugudan() {
-        //     {
-        //         var i = n
-        //         for (var n = 2; n <= 9; n++) {
-        //             var ret = [n]
-        //         }
-        //         console.log(gugudan)
-        //     }
-        //     gugudan()
-        // }
-        // // 함수 gugudan2 는 1부터9까지 반복하는 코드 
-        // function gugudan2(str2) {
-        //     for (var i = 1; i <= 9; i++) {
-        //         var ret2 = [i];
-        //     }
-        //     return ret2
-        // }
-        // console.log(gugudan + " * " + gugudan2)
-
-        // gugudan2()
-        // // 함수 gugudan3 는
-
-        // function gugudan3(str3) {
-        // }
-
-        // console.log(gugudan + " * " + gugudan2)
-
-        // gugudan3()
-
+        //  n 이 9보다 같거나 작을떄가지 반복한다 
+           for (var n = 2; n <= 9; n++) {
+            gugudan(n)
+           }
+        // 함수의 활용 
     </script>
+
 </body>
 
 </html>
